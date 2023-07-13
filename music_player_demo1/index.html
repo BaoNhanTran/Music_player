@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music player</title>
+    <link rel="shortcut icon" href="#">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- <div class="background">
+        <img src="./assets/image/background.jpg" alt="">
+    </div> -->
+    <div class="player">
+        
+        <!-- Dashboard -->
+        <div class="dashboard">
+            
+            <div class="box">
+                <!-- background -->
+                <video class="background-video" src="./assets/video/background_video4.mp4" autoplay muted loop></video>
+                <!-- Header -->
+                    <header>
+                        <h4 class="heading">Now playing:</h4>
+                        <h2 class="heading">String 57th & 9th</h2>
+                    </header>
+                <!-- CD -->
+                <div class="cd">
+                    <div class="cd-thumb" style="background-image: url(./assets/image/image2.jpg)">
+                    </div>
+                </div>
+                <!-- Control -->
+                <div class="control">
+                    <div class="btn btn-repeat">
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </div>
+                    <div class="btn btn-prev">
+                        <i class="fa-solid fa-backward-step"></i>
+                    </div>
+                    <div class="btn btn-toggle-play">
+                        <i class="fa-solid fa-circle-pause icon-pause"></i>
+                        <i class="fa-solid fa-circle-play icon-play"></i>
+                    </div>
+                    <div class="btn btn-next">
+                        <i class="fa-solid fa-forward-step"></i>
+                    </div>
+                    <div class="btn btn-random">
+                        <i class="fa-solid fa-shuffle"></i>
+                    </div>
+                </div>
+                <audio id="audio" src=""></audio>
+                <div class="slider">
+                    <div class="time">
+                        <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+                        <div class="show-time">
+                            <div class="current-time"></div>
+                            <div class="song-time"></div>
+                        </div>
+                    </div>
+                    <div class="volume">
+                        <div class="volume-icon">
+                            <i class="fa-solid fa-volume-low"></i>
+                        </div>
+                        <input id="volume-range" class="volume-range" type="range" value="0" step="1" min="0" max="100">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Playlist -->
+        <div class="playlist">  
+            <!-- <div class="song">
+                <div class="thumb" style="background-image: url(./assets/image/image2.jpg)">
+                </div>
+                <div class="body">
+                    <h3 class="title">Music name</h3>
+                    <p class="author">Singer / band</p>
+                </div>
+                <div class="option">
+                    <i class="music_icon fa-solid fa-ellipsis"></i>
+                </div>
+            </div>
+            <div class="song">
+                <div class="thumb" style="background-image: url(./assets/image/image2.jpg)">
+                </div>
+                <div class="body">
+                    <h3 class="title">Music name</h3>
+                    <p class="author">Singer / band</p>
+                </div>
+                <div class="option">
+                    <i class="music_icon fa-solid fa-ellipsis"></i>
+                </div>
+            </div>
+            <div class="song">
+                <div class="thumb" style="background-image: url(./assets/image/image2.jpg)">
+                </div>
+                <div class="body">
+                    <h3 class="title">Music name</h3>
+                    <p class="author">Singer / band</p>
+                </div>
+                <div class="option">
+                    <i class="music_icon fa-solid fa-ellipsis"></i>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
